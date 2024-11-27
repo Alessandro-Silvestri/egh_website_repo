@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- <style>
       div {
@@ -53,7 +53,7 @@
               <a class="nav-link" href="#">Social</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacts</a>
+              <a class="nav-link" href="#contacts">Contacts</a>
             </li>
           </ul>
         </div>
@@ -62,7 +62,7 @@
     <!--END navbar -->
 
     <!-- header -->
-    <section id="header">
+    <section>
       <div class="container-fluid bg-dark pt-5 mt-5 align-items-baseline">
         <div class="container">
           <div class="d-sm-flex justify-content-between align-items-center">
@@ -81,11 +81,13 @@
     <!--End header -->
 
     <!-- the team -->
-    <section>
+    <section id="team">
       <div class="container">
         <h2 class="text-center p-5 align-items-center">The Team</h2>
         <div class="row g-5">
-          <div class="col-md d-md-flex justify-content-center align-items-center">
+          <div
+            class="col-md d-md-flex justify-content-center align-items-center"
+          >
             <img src="img/team2.jpg" class="img-fluid rounded-3" alt="" />
           </div>
           <div class="col-md">
@@ -110,7 +112,7 @@
     <!--END the team -->
 
     <!-- Who we are -->
-    <section>
+    <section id="who">
       <div class="container">
         <h2 class="text-center p-5 align-items-center">Who we are</h2>
 
@@ -241,90 +243,185 @@
     <!--END Who we are -->
 
     <!-- Faq -->
-    <div class="container">
-      <h2 class="text-center p-5 align-items-center">Frequently asked question</h2>
+    <div id="faq" class="container">
+      <h2 class="text-center p-5 align-items-center">
+        Frequently asked question
+      </h2>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#one" aria-expanded="true" aria-controls="one">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#one"
+              aria-expanded="true"
+              aria-controls="one"
+            >
               What is the purpose of this website?
             </button>
           </h2>
-          <div id="one" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div
+            id="one"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#accordionExample"
+          >
             <div class="accordion-body">
-              This site serves as a hub for paranormal enthusiasts to explore supernatural phenomena, share personal experiences, and delve into mysteries like hauntings, cryptids, UFOs, and more.
+              This site serves as a hub for paranormal enthusiasts to explore
+              supernatural phenomena, share personal experiences, and delve into
+              mysteries like hauntings, cryptids, UFOs, and more.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#two" aria-expanded="false" aria-controls="two">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#two"
+              aria-expanded="false"
+              aria-controls="two"
+            >
               Are the stories and reports on this site verified?
             </button>
           </h2>
-          <div id="two" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div
+            id="two"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
             <div class="accordion-body">
-              While we strive to collect credible accounts and evidence, some stories and reports are shared by our community and may not be verified. We encourage readers to approach each story with an open but critical mind.
+              While we strive to collect credible accounts and evidence, some
+              stories and reports are shared by our community and may not be
+              verified. We encourage readers to approach each story with an open
+              but critical mind.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#three" aria-expanded="false" aria-controls="three">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#three"
+              aria-expanded="false"
+              aria-controls="three"
+            >
               How can I share my own paranormal experience?
             </button>
           </h2>
-          <div id="three" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div
+            id="three"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
             <div class="accordion-body">
-              You can submit your story through our "Share Your Experience" page. Include as much detail as possible, and feel free to add photos or recordings if you have them.
+              You can submit your story through our "Share Your Experience"
+              page. Include as much detail as possible, and feel free to add
+              photos or recordings if you have them.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#four" aria-expanded="false" aria-controls="four">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#four"
+              aria-expanded="false"
+              aria-controls="four"
+            >
               Does this site conduct investigations into paranormal activity?
             </button>
           </h2>
-          <div id="four" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div
+            id="four"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
             <div class="accordion-body">
-              Yes! Our team occasionally conducts investigations into reported paranormal activity. If you have a location or event you’d like us to explore, please contact us through the “Investigation Requests” page.
+              Yes! Our team occasionally conducts investigations into reported
+              paranormal activity. If you have a location or event you’d like us
+              to explore, please contact us through the “Investigation Requests”
+              page.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#five" aria-expanded="false" aria-controls="five">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#five"
+              aria-expanded="false"
+              aria-controls="five"
+            >
               Are paranormal encounters dangerous?
             </button>
           </h2>
-          <div id="five" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div
+            id="five"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
             <div class="accordion-body">
-              Most paranormal experiences are harmless, though they can be unsettling. If you feel threatened or unsafe, seek help from a professional investigator or spiritual advisor.
+              Most paranormal experiences are harmless, though they can be
+              unsettling. If you feel threatened or unsafe, seek help from a
+              professional investigator or spiritual advisor.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#six" aria-expanded="false" aria-controls="six">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#six"
+              aria-expanded="false"
+              aria-controls="six"
+            >
               Can I join a paranormal investigation?
             </button>
           </h2>
-          <div id="six" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div
+            id="six"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
             <div class="accordion-body">
-              Absolutely! We host group investigations and workshops. Check our “Events” page for upcoming opportunities to participate.
+              Absolutely! We host group investigations and workshops. Check our
+              “Events” page for upcoming opportunities to participate.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#seven" aria-expanded="false" aria-controls="seven">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#seven"
+              aria-expanded="false"
+              aria-controls="seven"
+            >
               What tools or equipment are used in paranormal investigations?
             </button>
           </h2>
-          <div id="seven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div
+            id="seven"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
             <div class="accordion-body">
-              Common tools include EMF detectors, spirit boxes, infrared cameras, digital recorders, and thermal imaging devices. Check out our “Equipment Guide” section for more details on how each tool is used. -->
+              Common tools include EMF detectors, spirit boxes, infrared
+              cameras, digital recorders, and thermal imaging devices. Check out
+              our “Equipment Guide” section for more details on how each tool is
+              used. -->
             </div>
           </div>
         </div>
@@ -332,6 +429,48 @@
     </div>
     <!--END Faq -->
 
+
+
+
+
+    <!-- contacts -->
+    <section id="contacts">
+      <h2 class="text-center mt-5 align-items-center">Contacts</h2>
+      <div class="container p-5 mt-5 mb-5 bg-body-secondary">
+        <form action="#" method="POST">
+          <label for="fullName" class="form-label">Full Name</label>
+          <input type="text" class="form-control mb-3" id="fullName" />
+
+          <label for="mail" class="form-label">Email address</label>
+          <input type="email" class="form-control mb-3" id="mail" />
+
+          <p>Subject</p>
+          <select class="form-select mb-4">
+            <option selected>Open this select menu</option>
+            <option value="InfoRequest">Info Request</option>
+            <option value="FeedBack">FeedBack</option>
+            <option value="Partnership">Partnership</option>
+            <option value="Merchandise">Merchandise</option>
+            <option value="Other">Other</option>
+          </select>
+
+          <label for="textAreaMessage" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            id="textAreaMessage"
+            rows="3"
+          ></textarea>
+
+          <button type="submit" class="btn btn-warning mt-4">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!--END contacts -->
+
+
+
+
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -341,12 +480,3 @@
 </html>
 
 <!-- <div class="col-md-4 d-md-flex justify-content-center"></div> -->
-
-
-
-
-<!-- FAQ Section -->
-<!-- 
-
-What tools or equipment are used in paranormal investigations?
-Common tools include EMF detectors, spirit boxes, infrared cameras, digital recorders, and thermal imaging devices. Check out our “Equipment Guide” section for more details on how each tool is used. -->

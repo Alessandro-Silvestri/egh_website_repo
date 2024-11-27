@@ -1,5 +1,5 @@
-/* Change button color when active */
+/* Change accordions button color when active */
 .accordion-button:not(.collapsed) {
-    background-color: #000000; /* Example: blue */
+    background-color: #000000;
     color: white;
 }
