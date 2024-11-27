@@ -41,13 +41,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">The Team</a>
+              <a class="nav-link" href="#team">The Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Who we are</a>
+              <a class="nav-link" href="#who">Who we are</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Faq</a>
+              <a class="nav-link" href="#faq">Faq</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Social</a>
@@ -143,7 +143,7 @@
               style="width: 18rem"
             >
               <img
-                src="https://randomuser.me/api/portraits/men/9.jpg"
+                src="https://randomuser.me/api/portraits/men/7.jpg"
                 class="card-img-top rounded-circle w-50 my-3"
                 alt="..."
               />
@@ -163,7 +163,7 @@
               style="width: 18rem"
             >
               <img
-                src="https://randomuser.me/api/portraits/men/9.jpg"
+                src="https://randomuser.me/api/portraits/men/6.jpg"
                 class="card-img-top rounded-circle w-50 my-3"
                 alt="..."
               />
@@ -183,7 +183,7 @@
               style="width: 18rem"
             >
               <img
-                src="https://randomuser.me/api/portraits/men/9.jpg"
+                src="https://randomuser.me/api/portraits/women/9.jpg"
                 class="card-img-top rounded-circle w-50 my-3"
                 alt="..."
               />
@@ -203,7 +203,7 @@
               style="width: 18rem"
             >
               <img
-                src="https://randomuser.me/api/portraits/men/9.jpg"
+                src="https://randomuser.me/api/portraits/men/10.jpg"
                 class="card-img-top rounded-circle w-50 my-3"
                 alt="..."
               />
@@ -223,7 +223,7 @@
               style="width: 18rem"
             >
               <img
-                src="https://randomuser.me/api/portraits/men/9.jpg"
+                src="https://randomuser.me/api/portraits/men/14.jpg"
                 class="card-img-top rounded-circle w-50 my-3"
                 alt="..."
               />
@@ -437,15 +437,15 @@
     <section id="contacts">
       <h2 class="text-center mt-5 align-items-center">Contacts</h2>
       <div class="container p-5 mt-5 mb-5 bg-body-secondary">
-        <form action="#" method="POST">
+        <form action="https://formspree.io/f/xvgowbwp" method="POST">
           <label for="fullName" class="form-label">Full Name</label>
-          <input type="text" class="form-control mb-3" id="fullName" />
+          <input type="text" class="form-control mb-3" id="fullName" name="fullName" />
 
           <label for="mail" class="form-label">Email address</label>
-          <input type="email" class="form-control mb-3" id="mail" />
+          <input type="email" class="form-control mb-3" id="mail" name="email" />
 
           <p>Subject</p>
-          <select class="form-select mb-4">
+          <select class="form-select mb-4" name="subject">
             <option selected>Open this select menu</option>
             <option value="InfoRequest">Info Request</option>
             <option value="FeedBack">FeedBack</option>
@@ -458,6 +458,7 @@
           <textarea
             class="form-control"
             id="textAreaMessage"
+            name="message"
             rows="3"
           ></textarea>
 
@@ -470,7 +471,7 @@
 
 
 
-    
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
